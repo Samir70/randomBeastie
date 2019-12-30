@@ -1,0 +1,11 @@
+{
+  "name": "randombeastie",
+  "version": "1.0.0",
+  "description": "Picks a random name from a list in a text file",
+  "main": "randomBeastie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samir70",
+  "license": "MIT"
+}
