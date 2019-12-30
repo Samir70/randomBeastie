@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-var beasties = fs.readFileSync('beasties.txt', 'utf8').split('\r\n');
+var beasties = fs.readFileSync('beasties.txt', 'utf8').split(/\r*\n/);
 // console.log(beasties);
 
 const theOne = beasties[Math.floor(Math.random() * beasties.length)];
