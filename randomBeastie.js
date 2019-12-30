@@ -48,12 +48,6 @@ const displayBeastie = async () => {
         await deleteMessage(messages[r-1], 1);
         await typeMessage(messages[r+1], 1);
     }
-    // for (i = splitMessages[r].length; i>0; i--) {
-    //     process.stdout.cursorTo(0, 0);
-    //     process.stdout.clearLine();
-    //     process.stdout.write(splitMessages[r][i-1]);
-    //     await pause(10)
-    // }
     await typeMessage('The #WaitingIsOver... (nearly)', 2);
     await pause(betweenLines);
     console.log('\n\nThe winner is', theOne);
